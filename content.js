@@ -5,9 +5,12 @@ const newLogo = `<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" vi
 
 // Ersetzen Sie das alte Logo durch Ihr neues Logo
 function replaceLogo() {
-  const logos = document.querySelectorAll('div.css-901oao.r-1awozwy.r-18jsvk2.r-6koalj.r-18u37iz.r-16y2uox.r-37j5jr.r-a023e6.r-b88u0q.r-1777fci.r-rjixqe.r-bcqeeo.r-q4m81j.r-qvutc0 > svg');
+  const logos = document.querySelectorAll('svg');
   logos.forEach(logo => {
-    logo.outerHTML = newLogo;
+    const path = logo.querySelector('path');
+    if (path && path.getAttribute('d').startsWith('M14.258 10.152L23.176')) {
+      logo.outerHTML = newLogo;
+    }
   });
 }
 
