@@ -1,0 +1,17 @@
+{
+  "name": "Twitter Logo replacement",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://twitter.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
