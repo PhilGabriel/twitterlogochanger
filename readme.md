@@ -24,6 +24,6 @@ EN:
 Note:  Use at your own risk.
 
 
-The Logo used for this app: https://www.pngkey.com/download/u2e6y3t4o0q8i1q8_cc0-public-domain-twitter-larry-the-bird/
-
+The Logo used for the icon of this app: https://www.pngkey.com/download/u2e6y3t4o0q8i1q8_cc0-public-domain-twitter-larry-the-bird/
+The Logo used for the replacement on twitter.com: https://de.wikipedia.org/wiki/Twitter#/media/Datei:Logo_of_Twitter.svg
 
