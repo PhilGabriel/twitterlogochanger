@@ -25,5 +25,14 @@ Note:  Use at your own risk.
 
 
 The Logo used for the icon of this app: https://www.pngkey.com/download/u2e6y3t4o0q8i1q8_cc0-public-domain-twitter-larry-the-bird/
+
 The Logo used for the replacement on twitter.com: https://de.wikipedia.org/wiki/Twitter#/media/Datei:Logo_of_Twitter.svg
 
+
+## Data Protection
+
+Diese Applikation erhebt keinerlei Nutzerdaten.
+Es ist nicht geplant dass sich dies ändert.
+
+This application does not collect any user data.
+There are no plans to change this.
