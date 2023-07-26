@@ -7,7 +7,7 @@ function replaceLogo() {
   const logos = document.querySelectorAll('svg');
   logos.forEach(logo => {
     const path = logo.querySelector('path');
-    if (path && path.getAttribute('d').startsWith('M14.258 10.152L23.176')) {
+    if (path && path.getAttribute('d').startsWith('M18.244 2.25h3.308l-7.227 8.26')) {
       logo.outerHTML = newLogo;
     }
   });
