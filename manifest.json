@@ -1,16 +1,14 @@
 {
-  "name": "Twitter Logo changer",
-  "version": "1.4",
   "manifest_version": 3,
-  "permissions": ["activeTab"],
+  "name": "Twitter Logo Changer",
+  "version": "1.5",
+  "permissions": ["declarativeContent", "storage"],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
-      "matches": [
-        "https://twitter.com/*"
-      ],
+      "matches": ["https://twitter.com/*"],
       "js": ["content.js"]
     }
   ],
