@@ -2,7 +2,6 @@
   "manifest_version": 3,
   "name": "Twitter Logo Changer",
   "version": "1.5",
-  "permissions": ["declarativeContent", "storage"],
   "background": {
     "service_worker": "background.js"
   },
