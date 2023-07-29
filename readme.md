@@ -48,10 +48,10 @@ Die App ist jetzt auch im Chrome Web Store verfügbar: https://chrome.google.com
 
 1.6 (29.07.2023): This Version removes the "/ X" in the <title> and the <meta-title> element of Twitter.
 
-Added: https://github.com/PhilGabriel/twitterlogochanger/tree/dev_version (this is a preview to a jquerry version)
+Added: https://github.com/PhilGabriel/twitterlogochanger/tree/dev_version (this is a preview to a jquery version)
 
 ### Preview:
 
 You can find a dev-Version from Version 1.7 here: https://github.com/PhilGabriel/twitterlogochanger/tree/dev_version
 
-Version 1.7 will be a move from vanilla-js to jquerry.
+Version 1.7 will be a move from vanilla-js to jquery.
