@@ -34,3 +34,28 @@ function changeFavicon() {
 const faviconObserver = new MutationObserver(changeFavicon);
 faviconObserver.observe(document, { childList: true, subtree: true });
 changeFavicon();
+
+// Funktion und Observer zum Aktualisieren des Meta-Titels und des Titels
+function updateTitle() {
+    const meta = document.querySelector('meta[property="og:title"]');
+    if (meta) {
+        let content = meta.getAttribute('content');
+        if (content && content.endsWith(' / X')) {
+            content = content.replace(' / X', '');
+            meta.setAttribute('content', content);
+        }
+    }
+
+    const title = document.querySelector('title');
+    if (title) {
+        let text = title.textContent;
+        if (text && text.endsWith(' / X')) {
+            text = text.replace(' / X', '');
+            title.textContent = text;
+        }
+    }
+}
+
+const titleObserver = new MutationObserver(updateTitle);
+titleObserver.observe(document, { childList: true, subtree: true });
+updateTitle();
