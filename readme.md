@@ -1,9 +1,9 @@
 
 # Twitter Logo changer
 
-EN: It is an extension for Google Chrome. This extension replaces the horrible X in Twitter with the popular Twitter logo. 
+EN: It is an extension for Google Chrome. This extension replaces the horrible X in Twitter with the popular Twitter logo. It also changes back the favicon and removes the "/ X" in the html-title-Element.
 
-DE: Es handelt sich um eine Extension für Google Chrome. Diese Extension ersetzt das grausige X in Twitter wieder durch das beliebte Twitter-Logo. 
+DE: Es handelt sich um eine Extension für Google Chrome. Diese Extension ersetzt das grausige X in Twitter wieder durch das beliebte Twitter-Logo. Ebenso wird das Favicon wieder zu Larry geändert und das html-title-Element wird vom "/ X" bereinigt.
 
 ## Installation
 1. Drücke auf Code: Lade die ZIP Datei herunter.
@@ -36,3 +36,9 @@ Es ist nicht geplant dass sich dies ändert.
 
 This application does not collect any user data.
 There are no plans to change this.
+
+## Chrome Web Store
+
+The App is now in the Google Chrome Web Store: https://chrome.google.com/webstore/detail/twitter-logo-changer/npejfjnbepdfgadpnplpnkppccnccdli?hl=de (Updates take a bit)
+
+Die App ist jetzt auch im Chrome Web Store verfügbar: https://chrome.google.com/webstore/detail/twitter-logo-changer/npejfjnbepdfgadpnplpnkppccnccdli?hl=de (Updates brauchen immer etwas)
